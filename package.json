@@ -1,6 +1,6 @@
 {
   "name": "react-native-icloud-sync",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A react-native wrapper for syncing with icloud",
   "main": "iCloudSync.ios.js",
   "author": {
@@ -20,6 +20,9 @@
     "sync",
     "icloud"
   ],
+  "dependencies": {
+    "events": "^1.0.2"
+  },
   "peerDependencies": {
     "react-native": ">= 0.4"
   }
