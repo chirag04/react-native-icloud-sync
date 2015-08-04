@@ -1,0 +1,391 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		46F1CB521B7011D50089DAE4 /* RNiCloudSync.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 46F1CB511B7011D50089DAE4 /* RNiCloudSync.h */; };
+		46F1CB541B7011D50089DAE4 /* RNiCloudSync.m in Sources */ = {isa = PBXBuildFile; fileRef = 46F1CB531B7011D50089DAE4 /* RNiCloudSync.m */; };
+		46F1CB5A1B7011D50089DAE4 /* libRNiCloudSync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 46F1CB4E1B7011D50089DAE4 /* libRNiCloudSync.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		46F1CB5B1B7011D50089DAE4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 46F1CB461B7011D50089DAE4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 46F1CB4D1B7011D50089DAE4;
+			remoteInfo = RNiCloudSync;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		46F1CB4C1B7011D50089DAE4 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				46F1CB521B7011D50089DAE4 /* RNiCloudSync.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		46F1CB4E1B7011D50089DAE4 /* libRNiCloudSync.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNiCloudSync.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F1CB511B7011D50089DAE4 /* RNiCloudSync.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNiCloudSync.h; sourceTree = "<group>"; };
+		46F1CB531B7011D50089DAE4 /* RNiCloudSync.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNiCloudSync.m; sourceTree = "<group>"; };
+		46F1CB591B7011D50089DAE4 /* RNiCloudSyncTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RNiCloudSyncTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		46F1CB5F1B7011D50089DAE4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		46F1CB4B1B7011D50089DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F1CB561B7011D50089DAE4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F1CB5A1B7011D50089DAE4 /* libRNiCloudSync.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		46F1CB451B7011D50089DAE4 = {
+			isa = PBXGroup;
+			children = (
+				46F1CB501B7011D50089DAE4 /* RNiCloudSync */,
+				46F1CB5D1B7011D50089DAE4 /* RNiCloudSyncTests */,
+				46F1CB4F1B7011D50089DAE4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		46F1CB4F1B7011D50089DAE4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				46F1CB4E1B7011D50089DAE4 /* libRNiCloudSync.a */,
+				46F1CB591B7011D50089DAE4 /* RNiCloudSyncTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		46F1CB501B7011D50089DAE4 /* RNiCloudSync */ = {
+			isa = PBXGroup;
+			children = (
+				46F1CB511B7011D50089DAE4 /* RNiCloudSync.h */,
+				46F1CB531B7011D50089DAE4 /* RNiCloudSync.m */,
+			);
+			path = RNiCloudSync;
+			sourceTree = "<group>";
+		};
+		46F1CB5D1B7011D50089DAE4 /* RNiCloudSyncTests */ = {
+			isa = PBXGroup;
+			children = (
+				46F1CB5E1B7011D50089DAE4 /* Supporting Files */,
+			);
+			path = RNiCloudSyncTests;
+			sourceTree = "<group>";
+		};
+		46F1CB5E1B7011D50089DAE4 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				46F1CB5F1B7011D50089DAE4 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		46F1CB4D1B7011D50089DAE4 /* RNiCloudSync */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F1CB621B7011D50089DAE4 /* Build configuration list for PBXNativeTarget "RNiCloudSync" */;
+			buildPhases = (
+				46F1CB4A1B7011D50089DAE4 /* Sources */,
+				46F1CB4B1B7011D50089DAE4 /* Frameworks */,
+				46F1CB4C1B7011D50089DAE4 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNiCloudSync;
+			productName = RNiCloudSync;
+			productReference = 46F1CB4E1B7011D50089DAE4 /* libRNiCloudSync.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		46F1CB581B7011D50089DAE4 /* RNiCloudSyncTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 46F1CB651B7011D50089DAE4 /* Build configuration list for PBXNativeTarget "RNiCloudSyncTests" */;
+			buildPhases = (
+				46F1CB551B7011D50089DAE4 /* Sources */,
+				46F1CB561B7011D50089DAE4 /* Frameworks */,
+				46F1CB571B7011D50089DAE4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				46F1CB5C1B7011D50089DAE4 /* PBXTargetDependency */,
+			);
+			name = RNiCloudSyncTests;
+			productName = RNiCloudSyncTests;
+			productReference = 46F1CB591B7011D50089DAE4 /* RNiCloudSyncTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		46F1CB461B7011D50089DAE4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0640;
+				ORGANIZATIONNAME = "Chirag Jain";
+				TargetAttributes = {
+					46F1CB4D1B7011D50089DAE4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					46F1CB581B7011D50089DAE4 = {
+						CreatedOnToolsVersion = 6.4;
+					};
+				};
+			};
+			buildConfigurationList = 46F1CB491B7011D50089DAE4 /* Build configuration list for PBXProject "RNiCloudSync" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 46F1CB451B7011D50089DAE4;
+			productRefGroup = 46F1CB4F1B7011D50089DAE4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				46F1CB4D1B7011D50089DAE4 /* RNiCloudSync */,
+				46F1CB581B7011D50089DAE4 /* RNiCloudSyncTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		46F1CB571B7011D50089DAE4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		46F1CB4A1B7011D50089DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				46F1CB541B7011D50089DAE4 /* RNiCloudSync.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		46F1CB551B7011D50089DAE4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		46F1CB5C1B7011D50089DAE4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 46F1CB4D1B7011D50089DAE4 /* RNiCloudSync */;
+			targetProxy = 46F1CB5B1B7011D50089DAE4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		46F1CB601B7011D50089DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		46F1CB611B7011D50089DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		46F1CB631B7011D50089DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		46F1CB641B7011D50089DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"$(SRCROOT)/node_modules/react-native/React/**",
+					"$(SRCROOT)/../react-native/React/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		46F1CB661B7011D50089DAE4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNiCloudSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		46F1CB671B7011D50089DAE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = RNiCloudSyncTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		46F1CB491B7011D50089DAE4 /* Build configuration list for PBXProject "RNiCloudSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F1CB601B7011D50089DAE4 /* Debug */,
+				46F1CB611B7011D50089DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F1CB621B7011D50089DAE4 /* Build configuration list for PBXNativeTarget "RNiCloudSync" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F1CB631B7011D50089DAE4 /* Debug */,
+				46F1CB641B7011D50089DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		46F1CB651B7011D50089DAE4 /* Build configuration list for PBXNativeTarget "RNiCloudSyncTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				46F1CB661B7011D50089DAE4 /* Debug */,
+				46F1CB671B7011D50089DAE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 46F1CB461B7011D50089DAE4 /* Project object */;
+}
